@@ -1,0 +1,36 @@
+{
+"name": "Azure Diagram MCP",
+// Build from the Dockerfile below
+"build": {
+"dockerfile": "Dockerfile"
+},
+
+
+// Recommended VS Code customizations
+"customizations": {
+"vscode": {
+"extensions": [
+"ms-python.python",
+"ms-python.vscode-pylance",
+"GitHub.copilot",
+"GitHub.copilot-chat",
+"ms-azuretools.vscode-docker"
+],
+"settings": {
+"python.defaultInterpreterPath": "/usr/local/bin/python",
+"python.analysis.typeCheckingMode": "basic",
+"python.testing.pytestEnabled": true,
+"python.testing.unittestEnabled": false
+}
+}
+},
+
+
+// Automatically install project deps on first create
+"postCreateCommand": "python -m pip install --upgrade pip && if [ -f requirements.txt ]; then pip install -r requirements.txt; fi",
+
+
+// Use the non-root user provided by the base image
+"remoteUser": "root",
+"containerUser": "root"
+}
