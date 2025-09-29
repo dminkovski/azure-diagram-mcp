@@ -1,4 +1,12 @@
 # Model Context Protocol (MCP) server for Microsoft  Azure Diagrams
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
+[![Made with Diagrams](https://img.shields.io/badge/Diagrams-mingrammer-informational.svg)](https://diagrams.mingrammer.com/)
+
+
+![GitHub Copilot Prompt Sample](./media/prompt_sample.png)
+
+![AKS App Gateway Azure SQL Architecture Diagram](./media/aks_appgw_sql_architecture.png)
 
 This tool lets you create Microsoft Azure architecture diagrams automatically.
 You write a short description (using GitHub Copilot in Visual Studio Code to generate it), and the server will turn it into a diagram image.
@@ -72,7 +80,7 @@ Configure the MCP server in your MCP client configuration (e.g., for Visual Stud
       "args": [
         "-m", "azure_diagram_mcp_server.server"
       ],
-      "cwd": "YOUR_DIRECTORY/AzureDiagramMCP",
+      "cwd": "PARENT_OF_CLONED_REPO",
       "autoApprove": [],
     }
   }
