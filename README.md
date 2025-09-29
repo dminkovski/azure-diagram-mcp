@@ -51,6 +51,9 @@ Open a terminal (Command Prompt, PowerShell, or VS Code Terminal) and run:
 winget install Python.Python.3.10
 ```
 
+⚠️ Make sure the Python installation path is added to your system's environment variables so that `python` works in the terminal.  
+Typically, the installer does this automatically, but if not, you can follow this [guide](https://realpython.com/add-python-to-path/).
+
 ### 2. Install GraphViz
 
 Download and install from: [https://graphviz.org/download/](https://graphviz.org/download/)
