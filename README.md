@@ -76,12 +76,12 @@ Configure the MCP server in your MCP client configuration (e.g., for Visual Stud
 {
   "mcpServers": {
     "Azure Diagram MCP Server": {
+      "type": "stdio",
       "command": "python",
       "args": [
         "-m", "azure_diagram_mcp_server.server"
       ],
-      "cwd": "PARENT_OF_CLONED_REPO",
-      "autoApprove": [],
+      "cwd": "PARENT_FOLDER_OF_CLONED_REPO",
     }
   }
 }
