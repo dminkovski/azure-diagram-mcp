@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/dminkovski-azure-diagram-mcp-badge.png)](https://mseep.ai/app/dminkovski-azure-diagram-mcp)
+
 # Model Context Protocol (MCP) server for Microsoft  Azure Diagrams
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
